@@ -1,0 +1,44 @@
+* {
+	box-sizing: border-box;
+}
+.container {
+	margin: 0 auto;
+	padding:27px;
+	background-image: url(../img/board.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:500px;
+	height:500px;
+}
+.container__checkers {
+	width:50px;
+	height:50px;
+	border-radius: 50%;
+	box-shadow: 5px 10px 15px;
+}
+.container__row {
+	height: 100%;
+	padding:0;
+	line-height:1;
+	list-style-type:none;
+	margin:0;
+	float:left;
+}
+.container__row:not(:last-of-type) {
+	margin:0 3px;	
+	}
+.container__row--2 {
+	padding: 55px 0 0;
+}
+.container__checkers:not(:last-of-type) {
+	margin-bottom:63px;
+}
+.container__checkers--interval {
+	margin-top:172px;
+}
+.container__checkers--red {
+	background-color:red;
+}
+.container__checkers--black {
+	background-color:black;
+}
